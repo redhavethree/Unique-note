@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+} 
+/*清除默认样式*/
+.goods1{
+    width:1226px;
+    height:auto;
+    margin:0 auto;
+}
+/*定义最大整体模块，高度随内容增加，整体模块居中*/
+.goods1 .top{
+    width:100%;
+    height:58px;
+    
+}
+/* 定义上模块,宽度与大模块同宽*/
+.goods1 .top .left{
+    width:auto;
+    height:58px;
+    float:left;
+    line-height:58px;
+    
+}
+/* 定义家电模块长宽高，并左悬浮*/
+.goods1 .top .right{
+    width:auto;
+    height:58px;
+    float:right;
+    line-height:58px;
+}
+/*  定义右上模块，右悬浮*/
+.goods1 .top .right span{
+    margin-left:20px;
+    cursor:pointer;
+}
+.goods1 .top .right span:hover{
+    color:#ff6700;
+    border-bottom:2px solid #ff6700;
+    padding-bottom:2px;
+}
+/* 鼠标选中后字体添加颜色并且有下边框 */
+.goods1 .bottom{
+    width:100%;
+    height:614px;
+    background-color: cadetblue;
+}
+/* 定义下整体模块 */
+.goods1 .bottom .left{
+    width:234px;
+    height:614px;
+    float:left;
+}
+/* 定义左模块 */
+.goods1 .bottom .left li{
+    width:234px;
+    height:300px;
+}
+/* 定义图片尺寸 */
+.goods1 .bottom .left li.bottom{
+    margin-top:14px;
+}
+/* 定义图片上下间距 */
+.goods1 .bottom .left li a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+/* 图片转换为块元素 */
+.goods1 .bottom .right{
+    width:992px;
+    height:614px;
+    float:right;
+}
+/*定义右下模块并且右悬浮  */
+.goods1 .bottom .right li{
+    width:234px;
+    height:300px;
+    background-color:pink;
+    float:left;
+    margin-left:14px;
+}
+/* 定义9个模块，左悬浮并且留有左边间距 */
+.goods1 .bottom .right li.box1{
+    margin-bottom:14px;
+}
+/* 定义box1 下边框 */
+.goods1 .bottom .right li.box2{
+    height:143px;    
+}
+/* 定义box2 高度 */
